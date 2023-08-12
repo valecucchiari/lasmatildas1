@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    font-family: Arial;
     background-color: #e3a9dc;
     color: #000000;
     padding: 1rem;
@@ -16,10 +17,13 @@ header h1 {
 }
 
 nav ul {
+    border-style: solid;
+    font-size: 120%;
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
+    flex-direction: row;
 }
 
 nav li {
@@ -30,6 +34,7 @@ nav li {
 nav a {
     color:#fff;
     text-decoration: none;
+    padding: 5px 45px;
 }
 
 a:hover {
@@ -42,16 +47,32 @@ main {
 }
 
 main h2 {
+    font-family: Arial;
     margin-bottom: 1rem;
 }
 
 footer {
+    font-family: Arial;
     background-color: #e3a9dc;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
 
+.change {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.time {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial;
+    display: grid;
+    gap: 10px;
+}
 .container {
     max-width: 400px;
     margin: 0 auto;
@@ -59,10 +80,14 @@ footer {
 }
 
 h1 { 
+    font-size:500%;
+    font-family: Arial;
     text-align: center;
 }
 
 form {
+    width: 500px;
+    font-family: Arial;
     background-color: #e3a9dc;
     border-style: solid;
     border-color:#e3a9dc;
